@@ -9,6 +9,7 @@ const Navbar = () => {
     { name: 'Features', href: '#features' },
     { name: 'Why Us', href: '#why-us' },
     { name: 'Contact', href: '#cta' },
+
   ];
 
   return (
@@ -36,9 +37,7 @@ const Navbar = () => {
                 {item.name}
               </a>
             ))}
-            <button className="btn-primary">
-              Get Started
-            </button>
+
           </div>
 
           {/* Mobile menu button */}
@@ -68,9 +67,7 @@ const Navbar = () => {
                   {item.name}
                 </a>
               ))}
-              <button className="btn-primary w-full mt-4">
-                Get Started
-              </button>
+             
             </div>
           </div>
         )}
