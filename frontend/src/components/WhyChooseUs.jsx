@@ -123,7 +123,7 @@ const WhyChooseUs = () => {
                       <div className="text-blue-100">That trust us with their digital transformation</div>
                     </div>
                   </div>
-                  <button className="w-full bg-white text-sammunat-blue font-bold py-3 rounded-lg hover:bg-gray-100 transition-colors duration-300 mt-4">
+                  <button className="w-full  text-sammunat-blue font-bold py-3 rounded-lg  transition-colors duration-500 mt-4 border-2 hover:scale-105">
                     Become Our Partner
                   </button>
                 </div>
