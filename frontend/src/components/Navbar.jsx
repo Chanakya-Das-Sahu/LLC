@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import logo from '../Images/logo.png';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -19,8 +19,8 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-sammunat-blue rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">S</span>
+              <div className="bg-sammunat-blue rounded-lg flex items-center justify-center">
+                <img src={logo} alt="Logo" className="w-15 h-15"/>
               </div>
               <span className="text-2xl font-bold text-gray-900">Sammunat</span>
             </div>
